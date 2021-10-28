@@ -1,0 +1,17 @@
+Zetsubō Seikatsu P.
+Please Keep in mind that this document only has the elements used by Codecademy Lessons.
+This Text file is made for a future project That will use the Codecademy Notebooks as a resource.
+
+Learn HTML
+- HTML Anatomy
+  HTML is composed of elements. These elements structure the webpage and define its content.
+    <p> Hello World! </p>
+  As we can see, the paragraph element is made up of:
+    - An opening tag {<p>}
+    - The context ("Hello World!" text)
+    - A closing tag (</p>)
+  There are many tags that we can use to organize and display text and other types of content, like images.
+
+- The Body
+  Only the content inside the opening and closing body tags can be displayed on the screen.
+  Here's what opening and closing body tags look like.
