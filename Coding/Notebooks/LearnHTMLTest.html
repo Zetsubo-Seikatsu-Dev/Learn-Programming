@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Learn HTML</title>
+
+    <p>Zetsubō Seikatsu P.</p>
+    <p>Please Keep in mind that this document only has the elements used by Codecademy Lessons. <br>
+      This Text file is made for a future project That will use the Codecademy Notebooks as a resource.</p>
+  <head>
+<body>
+  <h1>Learn HTML</h1>
+  <h3>HTML Anatomy<h3>
+    <p>HTML is composed of elements. These elements structure the webpage and define its content. <br>
+      <'p'> Hello World! <'/p'> <br>
+      As we can see, the paragraph element is made up of: <br>
+      - An opening tag {<'p'>} <br>
+      - The context ("Hello World!" text) <br>
+      - A closing tag (<'/p'>) <br>
+      There are many tags that we can use to organize and display text and other types of content, like images.
+    </p>
+  <br>
+
+  <h3>The Body</h3>
+    <p>Only the content inside the opening and closing body tags can be displayed on the screen. <br>
+      Here's what opening and closing body tags look like: <br>
+      <'body'> <br>
+      <'/body'> <br>
+      <br>
+      Once the file has a body, many different types of content - including text, images, and buttons - can be added
+      to the body.
+    </p>
+  <br>
+  <h3>HTML structure</h3>
+    <p>As you saw in the last exercise, we placed <'p'> tags within <'body'> tags. When an element is contained inside
+      another element, it is considered the child of that element. <br>
+        <'body'> <br>
+          <'p'>This paragraph is a child of the body <'/p'> <br>
+        <'/body'> <br>
+      <br>
+      In the example above, the <'p'> element is nested inside the <'body'> element. <br>
+      Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, great-grandchildren,
+      and beyond. The relationship between elements and their ancestor and descendant elements is known as a hierarchy. <br>
+      Another more complex example: <br>
+        <'body'> <br>
+          <'div'> <br>
+           <'h1'>Sibling to p, but also grandchild of body <'/h1'> <br>
+          <'p'>Sibling to h1 but also grandchild of body <'/p'> <br>
+          <'/div'> <br>
+        <'/body'> <br>
+      <br>
+      In this example, the <'body'> element is the parent of the <'div'> element. Both the <'h1'> and <'p'> elements are
+      children of the <'div'> element. Because the <'h1'> and <'p'> elements are at the same level, they are considered
+      siblings and are both grandchildren of the <'body'> element.
+    </p>
+  <br>
+  <h3>Headings</h3>
+    <p>Headings in HTML are similar to headings in other type of media. For example, in newspapers, large headings
+  are typically used to capture a reader’s attention. The following is the list of heading elements available
+  in HTML. They are ordered from largest to smallest in size. <br>
+    * <'h1'> <br>
+    * <'h2'> <br>
+    ... <br>
+    * <'h6'> <br>
+    </p>
+  <br>
+
+  <h3>Divs</h3>
+    <p><'div'> is short for "division" or a container that divides the page into sections. These sections are very useful
+    for grouping elements in your HTML together. <br>
+       <'body'> <br>
+         <'div'> <br>
+            <'h1'> Why use divs? <'/h1'> <br>
+         <'p'> Great for grouping elements! <'/p'> <br>
+         <'/div'> <br>
+       <'/body'> <br>
+       <br>
+      <'div'>s don’t inherently have a visual representation, but they are very useful when we want to apply custom styles
+      to our HTML elements. <'div'>s allow us to group HTML elements to apply the same styles for all HTML elements inside.
+      We can also style the <'div'> element as a whole.
+     </p>
+  <br>
+
+  <h3>Attributes</h3>
+    <p>If we want to expand an element's tag, we can do so using an attribute. Attributes are content added to the opening
+    tag of an element and can be used in several different ways. Attributes are made up of the following two parts: <br>
+      * The Name of the Attribute <br>
+      * The Value of the Attribute <br>
+      <br>
+    One commonly used attribute is the id. We can use the id attribute to specify different content, ids have several
+    different purposes in HTML, but for now, we’ll focus on how they can help us identify content on our page. <br>
+      <'div id="intro"> <br>
+        <'h1>Introduction<'/h1'> <br>
+      <'/div'> <br>
+    </p>
+  <br>
+
+  <h3>Displaying text</h3>
+    <p>If you want to display text in HTML, you can use a paragraph or span: <br>
+      * Paragraphs (<'p'>) contain a block of plain text. <br>
+      * <'span'> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on
+      the same line as other content. <br>
+      <br>
+      Take a look at each of these elements in action below: <br>
+        <'div'> <br>
+          <'h1'>Technology<'/h1'> <br>
+        <'/div'> <br>
+        <'div'> <br>
+          <'p'><'span'>Self-driving cars<'/span'> are anticipated to replace up to 2 million jobs over the next two decades.<'/p'> <br>
+        <'/div'> <br>
+    </p>
+
+  <h3>
+  </body>
+</html>
