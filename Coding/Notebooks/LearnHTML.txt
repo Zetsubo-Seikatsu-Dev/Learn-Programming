@@ -14,4 +14,10 @@ Learn HTML
 
 - The Body
   Only the content inside the opening and closing body tags can be displayed on the screen.
-  Here's what opening and closing body tags look like.
+  Here's what opening and closing body tags look like:
+    <body>
+
+    </body>
+
+  Once the file has a body, many different types of content - including text, images, and buttons - can be added
+  to the body.
