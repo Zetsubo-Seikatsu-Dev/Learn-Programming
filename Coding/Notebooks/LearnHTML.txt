@@ -21,3 +21,51 @@ Learn HTML
 
   Once the file has a body, many different types of content - including text, images, and buttons - can be added
   to the body.
+
+- HTML structure
+  As you saw in the last exercise, we placed <p> tags within <body> tags. When an element is contained inside
+  another element, it is considered the child of that element.
+    <body>
+      <p>This paragraph is a child of the body </p>
+    </body>
+
+  In the example above, the <p> element is nested inside the <body> element.
+  Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, great-grandchildren,
+  and beyond. The relationship between elements and their ancestor and descendant elements is known as a hierarchy.
+  Another more complex example:
+    <body>
+      <div>
+        <h1>Sibling to p, but also grandchild of body </h1>
+        <p>Sibling to h1 but also grandchild of body </p>
+      </div>
+    </body>
+
+    In this example, the <body> element is the parent of the <div> element. Both the <h1> and <p> elements are
+    children of the <div> element. Because the <h1> and <p> elements are at the same level, they are considered
+    siblings and are both grandchildren of the <body> element.
+
+- Headings
+  Headings in HTML are similar to headings in other type of media. For example, in newspapers, large headings
+  are typically used to capture a reader’s attention. The following is the list of heading elements available
+  in HTML. They are ordered from largest to smallest in size.
+    * <h1>
+    * <h2>
+    ...
+    * <h6>
+
+- Divs
+  <div> is short for "division" or a container that divides the page into sections. These sections are very useful
+  for grouping elements in your HTML together.
+    <body>
+      <div>
+        <h1> Why use divs? </h1>
+        <p> Great for grouping elements! </p>
+      </div>
+    </body>
+
+  <div>s don’t inherently have a visual representation, but they are very useful when we want to apply custom styles
+  to our HTML elements. <div>s allow us to group HTML elements to apply the same styles for all HTML elements inside.
+  We can also style the <div> element as a whole.
+
+- Attributes
+  If we want to expand an element's tag
